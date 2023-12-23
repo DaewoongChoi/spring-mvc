@@ -19,7 +19,7 @@ public class ItemRepository {
         repository.put(item.getId(), item);
         return item;
     }
-    public Item findById(Long id) {
+    public Item findById(long id) {
         return repository.get(id);
     }
 
